@@ -47,7 +47,7 @@
         <server.dir>${basedir}/src/main/resources</server.dir>
         <dist.prefix>wildfly-elytron</dist.prefix>
         
-        <version.wildfly>9.0.0.Alpha1-SNAPSHOT</version.wildfly>
+        <version.wildfly>9.0.0.Alpha2-SNAPSHOT</version.wildfly>
         <version.org.wildfly.security.elytron-subsystem>1.0.0.Beta1-SNAPSHOT</version.org.wildfly.security.elytron-subsystem>
         <version.org.wildfly.security.wildfly-elytron>1.0.0.Beta1-SNAPSHOT</version.org.wildfly.security.wildfly-elytron>
     </properties>
