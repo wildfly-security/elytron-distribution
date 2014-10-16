@@ -55,6 +55,9 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- Local Dependencies -->
+        
+            <!-- External Dependencies -->
             <dependency>
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-web-feature-pack</artifactId>
@@ -93,6 +96,7 @@
     </dependencyManagement>
     
     <modules>
+        <module>build</module>
         <module>feature-pack</module>
     </modules>
 
