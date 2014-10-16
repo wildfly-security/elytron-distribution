@@ -64,7 +64,6 @@
             <plugin>
                 <groupId>org.wildfly.build</groupId>
                 <artifactId>wildfly-feature-pack-build-maven-plugin</artifactId>
-                <version>1.0.0.Alpha6-SNAPSHOT</version> <!--  TODO REMOVE ME -->
                 <executions>
                     <execution>
                         <id>feature-pack-build</id>
