@@ -55,8 +55,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Local Dependencies -->
-        
             <!-- External Dependencies -->
             <dependency>
                 <groupId>org.wildfly</groupId>
@@ -97,6 +95,7 @@
     
     <modules>
         <module>build</module>
+        <module>dist</module>
         <module>feature-pack</module>
     </modules>
 
