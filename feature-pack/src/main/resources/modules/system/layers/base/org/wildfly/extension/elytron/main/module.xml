@@ -18,7 +18,7 @@
   ~ limitations under the License.
   -->
 
-<module xmlns="urn:jboss:module:1.3" name="org.wildfly.security.elytron-subsystem">
+<module xmlns="urn:jboss:module:1.3" name="org.wildfly.extension.elytron">
     <resources>
         <artifact name="${org.wildfly.security:elytron-subsystem}"/>
     </resources>
