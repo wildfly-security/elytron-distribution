@@ -48,10 +48,28 @@
         <dist.prefix>wildfly-elytron</dist.prefix>
 
         <version.wildfly>9.0.0.Alpha1</version.wildfly>
+        <version.org.wildfly.build-tools>1.0.0.Alpha8</version.org.wildfly.build-tools>
         <version.wildfly.core>1.0.0.Alpha9</version.wildfly.core>
         <version.org.wildfly.security.elytron-subsystem>1.0.0.Beta1-SNAPSHOT</version.org.wildfly.security.elytron-subsystem>
         <version.org.wildfly.security.wildfly-elytron>1.0.0.Beta1-SNAPSHOT</version.org.wildfly.security.wildfly-elytron>
     </properties>
+    
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.wildfly.build</groupId>
+                    <artifactId>wildfly-feature-pack-build-maven-plugin</artifactId>
+                    <version>${version.org.wildfly.build-tools}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.wildfly.build</groupId>
+                    <artifactId>wildfly-server-provisioning-maven-plugin</artifactId>
+                    <version>${version.org.wildfly.build-tools}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
     <dependencyManagement>
         <dependencies>
@@ -96,7 +114,7 @@
     <modules>
         <module>build</module>
         <module>dist</module>
-        <module>feature-pack</module>
+        <module>feature-pack</module>    
     </modules>
 
 </project>

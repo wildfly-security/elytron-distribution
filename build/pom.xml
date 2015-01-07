@@ -35,7 +35,12 @@
     <packaging>pom</packaging>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.wildfly.elytron</groupId>
+            <artifactId>wildfly-elytron-feature-pack</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
     </dependencies>
 
     <build>
