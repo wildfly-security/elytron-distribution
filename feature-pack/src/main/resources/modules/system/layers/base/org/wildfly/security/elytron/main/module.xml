@@ -24,6 +24,6 @@
     </resources>
 
     <dependencies>
-        
+        <module name="org.jboss.logging"/>
     </dependencies>
 </module>
