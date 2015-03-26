@@ -51,7 +51,6 @@
         <version.org.wildfly.build-tools>1.0.0.Alpha8</version.org.wildfly.build-tools>
         <version.wildfly.core>1.0.0.Beta2</version.wildfly.core>
         <version.org.wildfly.security.elytron-subsystem>1.0.0.Alpha1-SNAPSHOT</version.org.wildfly.security.elytron-subsystem>
-        <version.org.wildfly.security.wildfly-elytron>1.0.0.Alpha1-SNAPSHOT</version.org.wildfly.security.wildfly-elytron>
     </properties>
     
     <build>
@@ -90,17 +89,6 @@
                 <groupId>org.wildfly.security</groupId>
                 <artifactId>elytron-subsystem</artifactId>
                 <version>${version.org.wildfly.security.elytron-subsystem}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>*</groupId>
-                        <artifactId>*</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.wildfly.security</groupId>
-                <artifactId>wildfly-elytron</artifactId>
-                <version>${version.org.wildfly.security.wildfly-elytron}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>*</groupId>
