@@ -47,9 +47,9 @@
         <server.dir>${basedir}/src/main/resources</server.dir>
         <dist.prefix>wildfly-elytron</dist.prefix>
 
-        <version.wildfly>10.0.0.Alpha2-SNAPSHOT</version.wildfly>
+        <version.wildfly>10.0.0.Alpha3-SNAPSHOT</version.wildfly>
         <version.org.wildfly.build-tools>1.0.0.Alpha8</version.org.wildfly.build-tools>
-        <version.wildfly.core>2.0.0.Alpha3-SNAPSHOT</version.wildfly.core>
+        <version.wildfly.core>2.0.0.Alpha5-SNAPSHOT</version.wildfly.core>
         <version.org.wildfly.security.elytron-subsystem>1.0.0.Alpha1-SNAPSHOT</version.org.wildfly.security.elytron-subsystem>
     </properties>
     
@@ -75,7 +75,7 @@
             <!-- External Dependencies -->
             <dependency>
                 <groupId>org.wildfly</groupId>
-                <artifactId>wildfly-web-feature-pack</artifactId>
+                <artifactId>wildfly-servlet-feature-pack</artifactId>
                 <version>${version.wildfly}</version>
                 <type>zip</type>
                 <exclusions>
