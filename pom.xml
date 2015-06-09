@@ -101,6 +101,7 @@
     
     <modules>
         <module>build</module>
+        <module>build-keycloak</module>
         <module>dist</module>
         <module>feature-pack</module>    
     </modules>
