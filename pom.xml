@@ -48,7 +48,7 @@
         <dist.prefix>wildfly-elytron</dist.prefix>
 
         <version.wildfly>10.0.0.Alpha5-SNAPSHOT</version.wildfly>
-        <version.org.wildfly.build-tools>1.0.0.Alpha8</version.org.wildfly.build-tools>
+        <version.org.wildfly.build-tools>1.1.0.Beta1</version.org.wildfly.build-tools>
         <version.wildfly.core>2.0.0.Alpha6-SNAPSHOT</version.wildfly.core>
         <version.org.wildfly.security.elytron-subsystem>1.0.0.Alpha1-SNAPSHOT</version.org.wildfly.security.elytron-subsystem>
     </properties>
